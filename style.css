@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+*{
+	font-family: "Source Sans Pro", sans-sefif;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+.center{
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.col_1{float:left;width:8.33333%}
+.col_2{float:left;width:16.66666%}
+.col_3{float:left;width:24.99999%}
+.col_4{float:left;width:33.33333%}
+.col_5{float:left;width:41.66666%}
+.col_6{float:left;width:49.99999%}
+.col_7{float:left;width:58.33333%}
+.col_8{float:left;width:66.66666%}
+.col_9{float:left;width:74.99999%}
+.col_10{float:left;width:83.33333%}
+.col_11{float:left;width:91.66666%}
+.col_12{float:left;width:99.99999%}
+
+@media (min-width:601px){
+	.col_m1{float:left;width:8.33333%}
+	.col_m2{float:left;width:16.66666%}
+	.col_m3{float:left;width:24.99999%}
+	.col_m4{float:left;width:33.33333%}
+	.col_m5{float:left;width:41.66666%}
+	.col_m6{float:left;width:49.99999%}
+	.col_m7{float:left;width:58.33333%}
+	.col_m8{float:left;width:66.66666%}
+	.col_m9{float:left;width:74.99999%}
+	.col_m10{float:left;width:83.33333%}
+	.col_m11{float:left;width:91.66666%}
+	.col_m12{float:left;width:99.99999%}
+}
+
+@media (min-width:993px){
+	.col_l1{float:left;width:8.33333%}
+	.col_l2{float:left;width:16.66666%}
+	.col_l3{float:left;width:24.99999%}
+	.col_l4{float:left;width:33.33333%}
+	.col_l5{float:left;width:41.66666%}
+	.col_l6{float:left;width:49.99999%}
+	.col_l7{float:left;width:58.33333%}
+	.col_l8{float:left;width:66.66666%}
+	.col_l9{float:left;width:74.99999%}
+	.col_l10{float:left;width:83.33333%}
+	.col_l11{float:left;width:91.66666%}
+	.col_l12{float:left;width:99.99999%}
+}
+.container{
+	width: 100%;
+}
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+ul{
+	background: #eee;
+	margin: 0px;
+}
+nav ul img{
+	height: 50px;
+}
+li{
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 30px;
+	padding: 20px;
+}
+nav li h1{
+	/*color: white;*/
+	font-size: 1.5em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.wrap{
+	width: 80%;
+	margin-left: 10%;
+}
+.home h1{
+	color:#E95F20;
+	margin-top: 50px;
+	padding-left: 50px;
+}
+.home img{
+	width: 100%;
+}
+footer{
+	background: #eee;
+}
+footer img{
+	height: 20px;
+}
+footer ul{
+	padding-left:0px;
+}
+.wrap{
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+#active_bar{
+	width: 100%;
+	height: 5px;
+	background: #eee;
+}
+#bar{
+	background: #E95F20;
+	height: 5px;
+	box-shadow: 0px -2px 5px #E95F20;
+}
+.about img{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.about h3{
+	margin-left: 20px;
+}
+.about h1{
+	color: #E95F20;
+	margin-left: 60px;
+}
+.portfolio img{
+	width: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.portfolio h3{
+	color: #E95F20;
+	/*margin-left: 20px;*/
+}
+.portfolio h1{
+	color: #E95F20;
+	margin-left: 40px;
+}
+.content h3{
+	margin-left: 20px;
+}
+
+
+
+
+	/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.activ, .collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding-bottom: 50px;
+}
+
+.content a{
+	text-decoration: underline;
+	color: #E95F20;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 450px) {
+	nav li h1{
+		font-size: 0.8em;
+		margin-top: 12px;
+		margin-bottom: 12px;
+	}
+	nav ul img{
+		height: 25px;
+	}
+}
